@@ -198,7 +198,7 @@ class SchieberGame:
         
         print('-' * 30)
         for t in r.turns:
-            print(t, '*' if t.player == r.winning_player else '')
+            print(t, '\t', '*' if t.player == r.winning_player else '', '\t', '+' if t.card.suit == self.trumpf_suit else '')
         print('')
 
         return r
