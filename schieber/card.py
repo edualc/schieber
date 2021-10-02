@@ -37,4 +37,4 @@ class Deck:
                 self.cards.append(Card(s, t))
 
 
-import code; code.interact(local=dict(globals(), **locals()))
+# import code; code.interact(local=dict(globals(), **locals()))
